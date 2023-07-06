@@ -1,0 +1,19 @@
+{
+  "data": null,
+  "errors": [
+    {
+      "path": ["getData"],
+      "data": null,
+      "errorType": "getDataError",
+      "errorInfo": null,
+      "locations": [
+        {
+          "line": 2,
+          "column": 3,
+          "sourceName": null
+        }
+      ],
+      "message": "There was an issue during execution of request"
+    }
+  ]
+}

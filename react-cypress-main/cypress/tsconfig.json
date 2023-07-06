@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": [
+      "cypress",
+      "@percy/cypress",
+      "cypress-xpath",
+      "cypress-file-upload",
+      "cypress-real-events"
+    ]
+  },
+  "include": ["./**/*.ts", "./**/*.js"],
+  "exclude": ["../src", "../node_modules"],
+  "files": ["./support/index.d.ts"]
+}

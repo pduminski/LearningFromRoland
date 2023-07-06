@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@e2e/*": ["./cypress/*"],
+      "@enums/*": ["./src/types/enums/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@redux/*": ["./src/redux/*"]
+    }
+  }
+}
